@@ -45,7 +45,7 @@
 
 - **金融街E动红墙APP 项目**
 
-    该项目主要是帮助西城区政府开发线上OA流程管理以及中心调度平台
+  该项目主要是帮助西城区政府开发线上OA流程管理以及中心调度平台
 
   *本人主要负责部分*
 
@@ -57,17 +57,18 @@
   - 文件upload、download基础工具
 
   *使用到的技术*
-  
-  - SpringBoot
-  - aop做日志统一配置
-  - rabbitMQ作为消息中间件，对接三方系统
-  - jackson做序列化工具
-  - Spring Security做权限管理
-  - Jcraft.Jsch工具做文件传输功能
-  - Redis做Session管理
-  
 
-  使用一两句话描述项目的主要功能，然后介绍自己在项目中的角色，解决了什么问题，使用什么方式解决，比别人的方法相比有什么优势（尽量用数据来说明）。
+  - SpringBoot
+
+  - aop做日志统一配置
+
+  - rabbitMQ作为消息中间件，对接三方系统，jackson做序列化工具
+
+  - Spring Security做权限管理
+
+  - jcraft.jsch工具做文件传输功能
+
+    
 
 - **吉林联通触点中心项目**
 
@@ -76,26 +77,23 @@
     *本人主要涉及工作*
 
     - 二维码生成、分发功能
-    - 营业厅范围搜索
-    - 触点管理
+    - 触点管理、营业厅范围搜索
     - 节日抽奖模块
-
-    *使用到的技术*
-
-    - Google-QRCode生成做二维码管理工作
+    
+*使用到的技术*
+    
+- Google-QRCode生成做二维码管理工作
     - 搭建Redis集群，做二维码缓存以及做抽奖功能的削峰功能
     - RestTemplate访问BaiduMap三方服务地址转换，对结果匹配数据库的网点信息做营业厅搜索
-    - 触点信息模糊查询
 
 ## <img src="assets/tools-solid.svg" width="30px"> 技能清单
 
-- 掌握Java语言，掌握常见Collection的使用与大致原理，熟悉Nio非阻塞模型，用过一些Stream工具
+- 掌握Java语言，熟悉Collection、Nio工具，用过一些Stream Api
 - 熟悉常见Java并发工具，对相关原理有一定理解
 - 熟悉常见设计模型——工厂、动态代理、模板、构建器等
 - 掌握Spring系列工具
-- 熟悉MySQL和Redis的主要概念、搭建以及使用
-- 了解一些JavaScript，对基于原型的编程范式有一定理解
-- 简单的用过RabbitMQ，理解相关概念
+- 熟悉MySQL、Redis
+- 了解JavaScript，对基于原型的编程范式有一定理解
 - 熟悉Git,常用项目管理工具Maven、Gradle
 - 了解一些Linux常用工具
 - 了解一些分布式相关概念，对SpringCloud亦有一定涉猎
